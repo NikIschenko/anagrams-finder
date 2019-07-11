@@ -34,7 +34,7 @@ public class AnagramString {
 	}
 
 	public boolean isAnagram(AnagramString anagramString) {
-				// first check like hashCode checking (for better performance)
+		// first check like hashCode checking (for better performance)
 		return (charSum == anagramString.charSum)
 				// input word mustn't be equal to this one...
 				&& !Arrays.equals(this.inputWord, anagramString.inputWord)
